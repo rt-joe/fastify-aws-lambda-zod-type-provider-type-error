@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node20",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules", "dist"]
+}

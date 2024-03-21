@@ -1,0 +1,20 @@
+{
+  "name": "fastify-aws-lambda-zod-type-provider-type-error",
+  "description": "Reproduce type error when using fastify-aws-lambda and fastify-type-provider-zod",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "type": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fastify/aws-lambda": "4.0.0",
+    "@tsconfig/node20": "20",
+    "fastify": "4.26.0",
+    "fastify-type-provider-zod": "1.1.9",
+    "typescript": "5.3.3",
+    "zod": "3.22.4"
+  }
+}
